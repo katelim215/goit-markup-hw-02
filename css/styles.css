@@ -11,6 +11,9 @@ body {
     height: 2592px;
 }
 
+
+/* page header */
+
 header {
     border-bottom: 1px solid #E7E9FC;
     background: #FFF;
@@ -46,6 +49,8 @@ header .logo {
     color: rgba(46, 47, 66, 1);
 }
 
+/* main content */
+
 .section-main-header {
     background:#2E2F42;
     width: 1440px;
@@ -54,7 +59,7 @@ header .logo {
     text-align: center;
 }
 
-.section-main-header button {
+.section-main-header-cta {
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
@@ -82,7 +87,7 @@ a:focus {
     color: white;
 }
 
-h1 {
+.section-main-header-title {
     color: #FFF;
     text-align: center;
     font-size: 56px;
@@ -92,7 +97,7 @@ h1 {
     width: 496px;
 }
 
-h2 {
+.section-title-h2 {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -105,7 +110,7 @@ h2 {
     list-style: none;
 }
 
-.features-list-item > h3 {
+.features-list-item-title {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -115,7 +120,7 @@ h2 {
     width: 264px;
 }
 
-.features-list-item > p {
+.features-list-item-description {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
