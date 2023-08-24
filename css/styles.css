@@ -35,7 +35,7 @@ header {
 }
 
 header .logo {
-    color: var(--grey);
+    color: var(--navyblue);
     font-family: Raleway;
     font-size: 18px;
     line-height: 21px;
@@ -61,6 +61,7 @@ header .logo {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
+    font-style: normal;
 }
 
 .nav-list-item .nav-list-link,
@@ -73,12 +74,12 @@ header .logo {
 
 .nav-list-item .nav-list-link:hover,
 .nav-list-item .nav-list-link:focus {
-    color: var(--white);
+    color: var(--ocean);
 }
 
 .address-list-item .address-list-link:hover,
 .address-list-item .address-list-link:focus {
-    color: var(--white);
+    color: var(--ocean);
 }
 
 
@@ -107,6 +108,16 @@ header .logo {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.64px;
+    font-family: inherit;
+    outline: none;
+    border: unset;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.section-main-header-cta:hover,
+.section-main-header-cta:focus {
+    color: var(--ocean);
 }
 
 .section-title-header {
@@ -115,6 +126,7 @@ header .logo {
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .features-list {
@@ -122,7 +134,7 @@ header .logo {
 }
 
 .features-list-item-title {
-    color: var(--grey);
+    color: var(--navyblue);
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -150,7 +162,7 @@ header .logo {
 }
 
 .team-list-items .team-list-title {
-    color: var(--grey);
+    color: var(--navyblue);
     text-align: center;
     font-size: 20px;
     line-height: 24px;
@@ -168,7 +180,7 @@ header .logo {
 /* page footer */
 
 .section-footer {
-    background: var(--grey);
+    background: var(--navyblue);
     width: 1440px;
     flex-shrink: 0;
 }
@@ -194,13 +206,17 @@ header .logo {
 .portfolio-buttons-items .portfolio-buttons-cta {
     list-style: none;
     border-radius: 4px;
-    border: 1px solid var(--cornflower);
+    border: 1px solid var(--ocean);
     background: var(--cloud);
     color: var(--iris);
     text-align: center;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.64px;
+    font-family: inherit;
+    outline: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    padding: 12px 24px;
 }
 
 .portfolio-buttons-items .portfolio-buttons-cta:hover,
@@ -208,8 +224,12 @@ header .logo {
     color: var(--ocean);
 }
 
+.portfolio-buttons-cta {
+    cursor: pointer;
+}
+
 .portfolio-images-items .portfolio-images-title {
-    color: var(--grey);
+    color: var(--navyblue);
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.4px;
